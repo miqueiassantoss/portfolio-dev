@@ -1,0 +1,60 @@
+.meu-trabalho {
+  margin-block: 120px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+
+  h3 {
+    font: var(--subtitle);
+    color: var(--red);
+  }
+
+  h2 {
+    font: var(--title-md);
+  }
+
+}
+
+#second {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 144px;
+}
+
+.card2 {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 12px;
+
+  border: 1px solid rgba(51, 51, 51, 0);
+  transition: border-color 0.5s ease;
+
+  img {
+    width: 300px;
+    height: 156px;
+    border-radius: 5px;
+  }
+
+  h3 {
+    padding-inline: 4px;
+    margin-block: 20px 10px; 
+    font: var(--title-sm);
+  }
+
+  p {
+    margin-inline: 4px;
+    margin-bottom: 21px;
+    color: var(--gray-500);
+    font: var(--text-sm);
+  }
+}
+
+.card2:hover {
+  border: 1px solid var(--gray-400);
+}

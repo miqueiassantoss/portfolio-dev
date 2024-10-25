@@ -1,0 +1,49 @@
+:root {
+  /*principal*/
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+
+  /*base*/
+  --gray-100: #0D0E11;
+  --gray-220: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
+
+  --font-title: 'asap';
+  --font-family: 'inconsolata';
+  --font-text: 'maven pro';
+
+  --title-lg: 700 56px/120% var(--font-title);
+  --title-md: 700 24px/120% var(--font-title);
+  --title-sm: 700 16px/120% var(--font-title);
+  --subtitle: 400 20px/120% var(--font-family);
+  --text-md: 400 16px/140% var(--font-text);
+  --text-sm: 400 14px/140% var(--font-text);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: var(--text-sm);
+  color: var(--gray-600);
+  background-color: var(--gray-220); 
+  overflow-x: hidden;
+}
+
+
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  background-color: var
+}
+

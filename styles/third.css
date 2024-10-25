@@ -1,0 +1,35 @@
+#third {
+  display: grid;
+  background-color: var(--gray-100);
+
+  margin-left: calc(50% - 50vw); 
+  margin-right: calc(50% - 50vw); 
+  width: 100vw; 
+  padding-bottom: 120px;
+}
+
+#card3 {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  gap: 24px;
+  justify-content: center;
+}
+
+.card3 {
+  border: 2px solid var(--gray-300);
+  padding: 20px;
+  border-radius: 15px;
+  height: 155px;
+
+  img{
+    margin-bottom: 20px;
+  }
+
+  strong {
+    margin-bottom: 8px;
+    text-align: left;
+    display: block;
+    }
+
+}
+
